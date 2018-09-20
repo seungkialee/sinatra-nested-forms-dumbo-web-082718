@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Pirates!</title>
+</head>
+<body>
+	<p>
+		<%=params[:pirate][:name]%></br>
+		<%=params[:pirate][:weight]%></br>
+		<%=params[:pirate][:height]%></br>
+	</p>
+
+	<p>
+		<%=params[:pirate][:ships][0][:name]%></br>
+		<%=params[:pirate][:ships][0][:type]%></br>
+		<%=params[:pirate][:ships][0][:booty]%></br>
+	</p>
+
+	<p>
+		<%=params[:pirate][:ships][1][:name]%></br>
+		<%=params[:pirate][:ships][1][:type]%></br>
+		<%=params[:pirate][:ships][1][:booty]%></br>
+	</p>
+
+</body>
+</html>
